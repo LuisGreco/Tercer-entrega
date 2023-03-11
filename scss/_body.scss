@@ -1,0 +1,12 @@
+body {
+	background-color: $background-color_1;
+	font-family: $font-family_1;
+}
+
+@mixin efecto {
+	&:hover{
+		filter: grayscale(0%);
+		transform: scale(1.05);
+	}
+
+}

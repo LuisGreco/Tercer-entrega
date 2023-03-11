@@ -1,0 +1,55 @@
+.botones {
+	padding: 5px;
+	margin: 15px;
+	color: $color_1;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.boton {
+	&:hover {
+		background-color: $background-color_2;
+	}
+}
+
+.imgcentro {
+	object-fit: contain;
+}
+
+.imagen {
+	object-fit: cover;
+}
+
+.redes {
+	width: 2rem;
+	height: 2rem;
+}
+
+.mapa {
+
+		iframe {
+			border-radius: 1rem ;
+			margin: 1rem;
+			width: 600px;
+			height: 500px;
+			@include efecto;
+		}
+	
+}
+
+.titulo{
+	color: white;
+	text-decoration: bold;
+	margin-right: 1rem;
+}
+
+.items {
+	color: white;
+
+
+}
+
+.efecto {
+	@include efecto;
+}
